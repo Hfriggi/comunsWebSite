@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../styles/apply.module.css'
 import MyHead from '../components/MyHead'
+import NavBar from '../components/Navbar'
 
 const Apply = () => {
   return (
@@ -9,6 +10,7 @@ const Apply = () => {
         title="Sobre nós"
         description="Bem vinco à rede Comuns!"
       />
+      <NavBar/>
       <section className=''>
         <div  className={"main min-h-screen flex justify-center items-center bg-black"}>
           <div className="content form">

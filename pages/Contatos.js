@@ -1,5 +1,6 @@
 import React from 'react'
 import MyHead from '../components/MyHead'
+import NavBar from '../components/Navbar'
 
 const features = () => {
     return (
@@ -8,6 +9,7 @@ const features = () => {
                 title="Contatos"
                 description="Bem vinco à rede Comuns!"
             />
+            <NavBar/>
             <div className='w-full h-screen flex flex-col justify-center items-center bg-black'>
                 <h1 className='font-bold text-lg text-white'>Nossos contatos:</h1>
                 <ul className='mt-5 border p-4 rounded-lg shadow-xl bg-white'>
