@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
     <>    
-        <nav className="bg-white border-gray-200 dark:bg-gray-900">
+        <nav className="bg-gray-900 border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link href="/" className="flex items-center">
                 <img src="/images/favicon.ico" className="h-8 mr-3" alt="Company Logo" />
