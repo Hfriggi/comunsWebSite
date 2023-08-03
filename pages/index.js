@@ -11,9 +11,9 @@ export default function Home() {
       />
       <NavBar/>
       <section class ="bg-black">
-                <div class="relative items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
+                <div class="relative items-center w-full px-5 py-14 mx-auto md:px-12 lg:px-16 max-w-7xl">
                   <div class="relative flex-col items-start m-auto align-middle">
-                    <div class="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-24">
+                    <div class="grid grid-cols-1 gap-0 lg:grid-cols-2 lg:gap-24">
                       <div class="relative items-center gap-12 m-auto lg:inline-flex md:order-first">
                         <div class="max-w-xl text-center lg:text-left">
                           <div><p class="text-2xl font-medium tracking-tight text-white sm:text-4xl">
@@ -33,14 +33,14 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                      <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
+                      <div class="order-first block w-full aspect-square">
                         <img class="object-cover object-center w-full mx-auto bg-gray-300 rounded-lg border lg:ml-auto" alt="hero" src="/images/banner1.jpeg"/>
                       </div>
                     </div>
                   </div>
                   <div>
                     <div class="pt-12 mx-auto lg:max-w-7xl">
-                      <dl class="grid grid-cols-1 gap-6 space-y-0 text-center lg:gap-24 lg:grid-cols-3 lg:text-left">
+                      <dl class="grid grid-cols-1 gap-5 space-y-0 text-center lg:gap-24 lg:grid-cols-3 lg:text-left">
                         <div>
                           <div>
                             <p class="mt-5 text-lg font-medium leading-6 text-white">
