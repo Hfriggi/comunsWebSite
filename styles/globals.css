@@ -16,16 +16,6 @@ body {
   font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 a {
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
   color: inherit;
@@ -33,7 +23,7 @@ a {
 }
 
 ::-webkit-scrollbar {
-  width: 8px; /* Set width of scrollbar */
+  width: 10px; /* Set width of scrollbar */
 }
 
 ::-webkit-scrollbar-track {
