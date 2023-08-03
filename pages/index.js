@@ -10,7 +10,7 @@ export default function Home() {
         description="Bem vinco à rede Comuns!"
       />
       <NavBar/>
-      <section class ="bg-black">
+      <section class ="bg-gradient-to-r from-slate-900 to-zinc-900">
                 <div class="relative items-center w-full px-5 py-14 mx-auto md:px-12 lg:px-16 max-w-7xl">
                   <div class="relative flex-col items-start m-auto align-middle">
                     <div class="grid grid-cols-1 gap-0 lg:grid-cols-2 lg:gap-24">
@@ -27,7 +27,7 @@ export default function Home() {
                             <a href="#" class="items-center justify-center w-full px-6 py-2.5  text-center text-white duration-200 bg-gradient-to-r from-pink-500 to-violet-500 border-2 border-black rounded-full inline-flex hover:bg-transparent hover:border-black hover:text-blue focus:outline-none lg:w-auto focus-visible:outline-black text-sm focus-visible:ring-black">
                              Login
                             </a>
-                            <a href="#" class="inline-flex items-center justify-center text-sm font-semibold text-white duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
+                            <a href="/Sobre" class="inline-flex items-center justify-center text-sm font-semibold text-white duration-200 hover:text-blue-500 focus:outline-none focus-visible:outline-gray-600">
                               Saiba mais  →
                             </a>
                           </div>
