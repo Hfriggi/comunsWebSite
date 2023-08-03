@@ -28,8 +28,8 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="relative items-center w-full mx-auto mt-12">
-                    <img class="object-cover object-center w-90 md:object-fill h-90 rounded-full" src="/images/folder.jpeg" alt=""/>
+                  <div class="relative items-center w-full mx-auto mt-6 h 120">
+                    <img class="object-cover object-center w-90 md:h-180 rounded-lg" src="/images/folder.jpeg" alt=""/>
                   </div>
                   <div>
                     <div class="pt-12 mx-auto lg:max-w-7xl">
